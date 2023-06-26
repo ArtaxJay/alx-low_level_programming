@@ -2,7 +2,7 @@
 
 /**
  * rev_string - lorem
- * @c: ipsum
+ * @s: ipsum
  * Return: dolor
  */
 
