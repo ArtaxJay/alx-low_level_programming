@@ -8,7 +8,7 @@
  * Return: sit
  */
 
-char *_strcpy(char dest, char src)
+char *_strcpy(char *dest, char *src)
 {
 	int i;
 
