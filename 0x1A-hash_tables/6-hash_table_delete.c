@@ -19,7 +19,7 @@ void hash_table_delete(hash_table_t *ht)
 			hash_node = ht->array[iter];
 			while (hash_node != NULL)
 			{
-				temp = jash_node->next;
+				temp = hash_node->next;
 				free(hash_node->key);
 				free(hash_node->value);
 				free(hash_node);
